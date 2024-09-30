@@ -34,7 +34,7 @@ let index = 0;
 const itemsToShow = 3; // Número de quadrados a serem exibidos
 
 function updateCarousel() {
-    const offset = -index * 310; // Largura de cada quadrado
+    const offset = -index * 300; // Largura de cada quadrado
     track.style.transform = `translateX(${offset}px)`;
 }
 
