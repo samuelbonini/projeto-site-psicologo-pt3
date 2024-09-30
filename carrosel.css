@@ -2,14 +2,14 @@
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    height: 68vh; /* Altura da tela */
+    padding: 0px 30px 30px 30px;
 }
 
 .titulo-carrosel {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 16px;
+    padding: 20px;
     font-family: "Markazi Text", serif;
     font-optical-sizing: auto;
     font-weight: 800;
