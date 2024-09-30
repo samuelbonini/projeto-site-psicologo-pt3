@@ -1,19 +1,19 @@
 .container-marque {
-  background-color: #f8e18d;
+  background-color: #025974;
 }
 
 .container-marque h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #592500;
+  color: #E9FFFC;
   font-family: "Markazi Text", serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
   font-size: 2.2rem;
   padding: 10px;
-  text-shadow:1px 2px 4px #59250085;
+  text-shadow:1px 2px 4px #002a596e;
 }
 
 .conteudo-marque {
@@ -29,7 +29,7 @@
 }
 
 .textos-marque h2 {
-  color: #592500;
+  color: #E9FFFC;
   font-family: "Markazi Text", serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -38,7 +38,7 @@
 }
 
 .textos-marque p {
-  color: #592500;
+  color: #E9FFFC;
   font-family: "Markazi Text", serif;
   font-optical-sizing: auto;
   font-weight: 400;

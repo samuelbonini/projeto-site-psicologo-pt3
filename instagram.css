@@ -1,5 +1,5 @@
 .container-instagram {
-  background-color: #f8e18d;
+  background-color: #025974;
 }
 
 .conteudo-instagram {
@@ -22,25 +22,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFF0BA;
+  background-color: #E9FFFC;
   border: none;
   padding: 5px 16px;
   max-width: 220px;
   border-radius: 10px;
   margin-right: 10px;
-  color: #592500;
+  color: #025974;
   font-family: "Markazi Text", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 1.4rem;
-  box-shadow: 1px 2px 5px #59250079;
+  box-shadow: 1px 2px 5px #002a596e;
   transition: transform 0.6s ease, background-color 0.3s ease; /* Transição suave para expansão e cores */
 }
 
 .botao-instagram a:hover {
-  background-color: #f8e18d; /* Cor de fundo ao passar o mouse */
-  color: #592500; /* Cor do texto ao passar o mouse */
+  background-color: #b8e3f0; /* Cor de fundo ao passar o mouse */
   transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
 }
 
@@ -54,7 +53,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f8e18d;
+  background-color: #E9FFFC;
 }
 
 footer p {
@@ -63,17 +62,18 @@ footer p {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  color: #592500;
+  color: #025974;
 }
 
 footer a {
   font-family: "Markazi Text", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
-  font-size: 1.2rem;
-  color: #592500;
+  font-size: 1rem;
+  color: #025974;
 }
+
 
 @media (max-width: 500px) {
   .conteudo-instagram img {

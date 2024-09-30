@@ -1,0 +1,72 @@
+.wrapper {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 68vh; /* Altura da tela */
+}
+
+.titulo-carrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.4rem;
+    color: #025974;
+}
+.carousel {
+    overflow: hidden;
+    width: 900px; /* Largura para exibir 3 quadrados */
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 2s ease;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-width: 240px; /* Largura dos quadrados */
+    height: 320px; /* Altura dos quadrados */
+    background-color: #025974; /* Cor de fundo */
+    color: #E9FFFC; /* Cor do texto */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 8px;
+    padding: 30px;
+    border-radius: 10px; /* Bordas arredondadas */
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.carousel-button {
+    background-color: #e9fffc; /* Cor do botão */
+    color: #025974; /* Cor do texto */
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 20%;
+    position: absolute; /* Para posicionar os botões */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição */
+}
+
+.left {
+    left: 10px; /* Posiciona o botão à esquerda */
+}
+
+.right {
+    right: 10px; /* Posiciona o botão à direita */
+}
