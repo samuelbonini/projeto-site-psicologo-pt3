@@ -1,0 +1,154 @@
+.container-endereco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF0BA;
+  padding: 60px;
+}
+
+.conteudo-endereco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa {
+  border-radius: 10px;
+  box-shadow: 10px #592500;
+}
+
+.mapa iframe {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px #59250079
+}
+
+.textos-endereco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 60px;
+}
+
+.textos-endereco h1 {
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.2rem;
+  text-decoration: underline; /* Adiciona uma linha abaixo do texto */
+  text-decoration-thickness: 2px; /* Espessura da linha */
+  text-decoration-color: #592500; /* Cor da linha */
+  margin-bottom: 10px;
+}
+
+.textos-endereco p {
+color: #592500;
+font-family: "Markazi Text", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 1.4rem;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.textos-endereco h2 {
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  }
+  
+  .textos-endereco span {
+    color: #592500;
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1rem;
+margin-bottom: 20px;
+    }
+
+.botoes-endereco {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 10px; 
+}
+
+.botao-sobre a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #592500;
+  background-color: #f8e18d;
+  border: none;
+  padding: 5px 16px;
+  border-radius: 10px;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  box-shadow: 1px 2px 5px #59250079;
+  transition: transform 0.6s ease, background-color 0.3s ease; /* Transição suave para expansão e cores */
+}
+
+.botao-sobre a:hover {
+  background-color: #592500; /* Cor de fundo ao passar o mouse */
+  color: #f8e18d; /* Cor do texto ao passar o mouse */
+  transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
+}
+
+@media (max-width: 900px) {
+  .conteudo-endereco {
+  flex-direction: column;
+  }
+  .mapa {
+  padding-top: 30px;
+  }
+  .mapa iframe {
+    width: 440px;
+    height: 300px;
+  }
+  .textos-endereco h1 {
+    margin-top: -30px;
+  }
+  .textos-endereco {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-endereco {
+    padding: 40px;
+  }  
+
+  .textos-endereco h1 {
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+  }
+  
+  .textos-endereco p {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  }
+  
+  .textos-endereco h2 {
+    font-size: 1.2rem;
+    }
+    
+    .textos-endereco span {
+      font-size: 1rem;
+  margin-bottom: 20px;
+      }
+      .mapa iframe {
+        width: 300px;
+        height: 220px;
+      }
+}

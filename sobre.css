@@ -1,0 +1,116 @@
+.container-sobre {
+  background-color: #FFF0BA;
+  padding: 60px;
+}
+
+.conteudo-sobre {
+  display: flex;
+  justify-content: center;
+}
+
+.imagem-sobre img {
+  width: 300px;
+  height: auto;
+  align-items: flex-start;
+}
+
+.textos-sobre {
+ margin-left: 30px;
+ flex-direction: column;
+}
+
+.textos-sobre h1 {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.2rem;
+  color: #592500;
+  white-space: nowrap; /* Mantém o texto em uma linha */
+  overflow: hidden; /* Esconde o texto que ainda não apareceu */
+  animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite; /* Efeito de escrita */
+}
+
+.textos-sobre span {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  color: #592500;
+  padding-bottom: 30px;
+}
+
+.textos-sobre p {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #592500;
+  padding-bottom: 20px;
+ max-width: 540px;
+}
+
+@media (max-width: 660px) {
+  .conteudo-sobre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .textos-sobre {
+    margin-left: 0px;
+    flex-direction: column;
+   }
+   .imagem-sobre img {
+    width: auto;
+    height: 200px;
+    align-items: flex-start;
+    border-radius: 10px;
+  }
+  .container-sobre {
+    background-color: #FFF0BA;
+    padding: 30px;
+  }
+}
+
+/* Animação de entrada lateral para os textos */
+.slide-in {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+/* Definindo a animação de entrada */
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #f8e18d; }
+}
+
+@media (max-width: 660px) {
+  .textos-sobre h1 {
+    font-size: 1.8rem;
+  }
+  .textos-sobre span {
+    font-size: 0.8rem;
+  }
+  
+  .textos-sobre p {
+    font-size: 1rem;
+   max-width: 540px;
+  }
+  
+}

@@ -1,0 +1,217 @@
+.identificar-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF0BA;
+}
+
+.identificar-titulo {
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.lista-identificar-1 {
+  background-color: #f8e18d;
+  padding: 20px;
+  border-radius: 20px;
+  width: 600px;
+}
+
+.lista-identificar-1 li {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: #592500;
+}
+
+.lista-identificar-1 li span {
+  font-size: 1.0rem;
+}
+
+.identificar-titulo2 {
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2rem;
+  margin: 10px;
+
+}
+
+.lista-identificar-2 {
+  background-color: #592500;
+  padding: 20px;
+  border-radius: 20px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.lista-identificar-2 li {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: #f8e18d;
+}
+
+.lista-identificar-2 li span {
+  font-size: 1.0rem;
+}
+
+.ajudar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background-titulo-ajuda {
+  background-color: #f8e18d;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-titulo-ajuda h1 {
+display: flex;
+justify-content: center;
+color: #592500;
+font-family: "Markazi Text", serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
+font-size: 2rem;
+}
+
+.ajudar-container {
+  background-color: #592500;
+}
+
+.background-texto-ajuda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.background-texto-ajuda p {
+  text-align: center;
+color: #f8e18d;
+font-family: "Markazi Text", serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
+font-size: 1.4rem;
+max-width: 600px;
+}
+
+@media (max-width: 730px) {
+  .lista-identificar-1 {
+    max-width: 400px;
+  }
+  .identificar-titulo {
+    font-size: 1.6rem;
+  }
+  
+  .lista-identificar-1 {
+    width: 500px;
+  }
+  
+  .lista-identificar-1 li {
+    font-size: 1.2rem;
+  }
+  
+  .lista-identificar-1 li span {
+    font-size: 0.8rem;
+  }
+  /* LISTA 2 */
+  .lista-identificar-2 {
+    max-width: 400px;
+  }
+  .identificar-titulo2 {
+    font-size: 1.6rem;
+  }
+  
+  .lista-identificar-2 {
+    width: 500px;
+  }
+  
+  .lista-identificar-2 li {
+    font-size: 1.2rem;
+  }
+  
+  .lista-identificar-2 li span {
+    font-size: 0.8rem;
+  }
+  .background-titulo-ajuda h1 {
+font-size: 1.6rem;
+  }
+.background-texto-ajuda p {
+  font-size: 1.2rem;
+}
+.background-texto-ajuda {
+  padding: 20px;
+}
+}
+
+@media (max-width: 500px) {
+  .lista-identificar-1 {
+    max-width: 300px;
+  }
+  .identificar-titulo {
+    font-size: 1.2rem;
+  }
+  
+  .lista-identificar-1 {
+    width: 300px;
+  padding: 10px;
+  }
+  
+  .lista-identificar-1 li {
+    font-size: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .lista-identificar-1 li span {
+    font-size: 0.6rem;
+  }
+  /* LISTA 2 */
+  .lista-identificar-2 {
+    max-width: 300px;
+  padding: 10px;
+  }
+  .identificar-titulo2 {
+    font-size: 1.2rem;
+  }
+  
+  .lista-identificar-2 {
+    width: 300px;
+  }
+  
+  .lista-identificar-2 li {
+    font-size: 1rem;
+  }
+  
+  .lista-identificar-2 li span {
+    font-size: 0.6rem;
+  }
+  .background-titulo-ajuda h1 {
+    font-size: 1.2rem;
+      }
+    .background-texto-ajuda p {
+      font-size: 1rem;
+    }
+    .background-texto-ajuda {
+      padding: 10px;
+    }
+}

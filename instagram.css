@@ -1,0 +1,84 @@
+.container-instagram {
+  background-color: #f8e18d;
+}
+
+.conteudo-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.botao-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.botao-instagram a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF0BA;
+  border: none;
+  padding: 5px 16px;
+  max-width: 220px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  box-shadow: 1px 2px 5px #59250079;
+  transition: transform 0.6s ease, background-color 0.3s ease; /* Transição suave para expansão e cores */
+}
+
+.botao-instagram a:hover {
+  background-color: #f8e18d; /* Cor de fundo ao passar o mouse */
+  color: #592500; /* Cor do texto ao passar o mouse */
+  transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
+}
+
+.botao-instagram img {
+  margin-right: 10px;
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e18d;
+}
+
+footer p {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #592500;
+}
+
+footer a {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #592500;
+}
+
+@media (max-width: 500px) {
+  .conteudo-instagram img {
+    width: 220px;
+    height: auto;
+    gap: 30px;
+  }
+}

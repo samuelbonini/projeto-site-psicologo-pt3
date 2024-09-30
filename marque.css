@@ -1,0 +1,94 @@
+.container-marque {
+  background-color: #f8e18d;
+}
+
+.container-marque h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.2rem;
+  padding: 10px;
+  text-shadow:1px 2px 4px #59250085;
+}
+
+.conteudo-marque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px 60px 60px;
+}
+
+.textos-marque {
+  max-width: 600px;
+  margin-right: 60px;
+}
+
+.textos-marque h2 {
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.textos-marque p {
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding-bottom: 30px;
+}
+
+.imagem-marque img {
+  width: 400px;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .conteudo-marque {
+    flex-direction: column;
+    text-align: center;
+      padding: 0px 60px 60px 60px;
+  }
+
+.imagem-marque img {
+  padding-top: 30px;
+}
+.botao-marque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textos-marque {
+  max-width: 600px;
+  margin-right: 0px;
+}
+}
+
+@media (max-width: 500px) {
+  .container-marque h1 {
+    font-size: 1.4rem;
+  }
+  .textos-marque h2 {
+    font-size: 1.2rem;
+  }
+  .textos-marque p {
+    font-size: 1em;
+  }
+  .imagem-marque img {
+    width: 260px;
+    height: auto;
+  }
+  .conteudo-marque {
+    padding: 0px 30px 30px 30px;
+  }
+}
