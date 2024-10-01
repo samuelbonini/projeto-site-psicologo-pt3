@@ -23,31 +23,3 @@ document.addEventListener("DOMContentLoaded", function() {
   }, 500); // Inicia a animação de escrita após 500ms
 });
 
-/* CARROSEL */ 
-
-const track = document.querySelector('.carousel-track');
-const items = document.querySelectorAll('.carousel-item');
-const leftButton = document.querySelector('.left');
-const rightButton = document.querySelector('.right');
-
-let index = 0;
-const itemsToShow = 3; // Número de quadrados a serem exibidos
-
-function updateCarousel() {
-    const offset = -index * 300; // Largura de cada quadrado
-    track.style.transform = `translateX(${offset}px)`;
-}
-
-function moveToNextSlide() {
-    index = (index + 1) % (items.length - itemsToShow + 1);
-    updateCarousel();
-}
-
-function moveToPreviousSlide() {
-    index = (index - 1 + (items.length - itemsToShow + 1)) % (items.length - itemsToShow + 1);
-    updateCarousel();
-}
-
-// Eventos de clique nos botões
-rightButton.addEventListener('click', moveToNextSlide);
-leftButton.addEventListener('click', moveToPreviousSlide);
