@@ -193,7 +193,7 @@ input:checked + header nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-left: 60px;
+  padding: 30px;
 }
 
 .textos-imagem h1,
