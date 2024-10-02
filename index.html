@@ -12,7 +12,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
-
+<!--CARROSEL-->
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />    
+<!--fim CARROSEL-->
   <title>Seu Nome - Psicologa(o)</title>
   <link rel="stylesheet" href="global.css">
   <link rel="shortcut icon" href="imagens/logo-solo.svg" type="image/x-icon">
@@ -45,6 +51,7 @@
         <nav>
           <a href="index.html">Início</a>
           <a href="sobre.html">Sobre</a>
+          <a href="#servicos">Serviços</a>
           <a href="#" class="botao-agendar-header">
             <img src="imagens/whats.svg" alt="whats">Marque sua sessão
           </a>
@@ -52,7 +59,7 @@
 
   </header>
 
-    <section>
+    <main>
       <div class="imagem-background textos-imagem">
         <div class="textos-container">
           <h1>Marcos Oliveira <span>CRP 11/35355</span></h1>
@@ -63,25 +70,77 @@
           </div>
         </div>
       </div>
-    </section>
+    </main>
     
-   
-              <div class="carousel-item"><h2>Terapia Cognitivo-Comportamental (TCC)</h2> <br>
-                A TCC é uma abordagem focada em identificar e modificar padrões de pensamento negativos e comportamentos disfuncionais. Este método é eficaz no tratamento de ansiedade, depressão, fobias e outros transtornos psicológicos, ajudando os pacientes a desenvolverem habilidades para enfrentar desafios.</div>
-              <div class="carousel-item"><h2>Terapia de Casal</h2> <br>
-                A terapia de casal ajuda parceiros a melhorar a comunicação, resolver conflitos e fortalecer a relação. Os psicólogos oferecem um espaço seguro para discutir questões emocionais e comportamentais, promovendo a empatia e a compreensão entre os cônjuges.</div>
-              <div class="carousel-item"><h2>Aconselhamento Psicológico</h2> <br>
-                Este serviço fornece apoio e orientação em momentos de crise, ajudando indivíduos a lidarem com dificuldades emocionais e situações desafiadoras. O aconselhamento é uma abordagem mais breve e pode ser útil para esclarecer dúvidas, melhorar a autoestima e enfrentar mudanças na vida.</div>
-              <div class="carousel-item"><h2>Terapia Infantil e Adolescente</h2> <br>
-                Os psicólogos que trabalham com crianças e adolescentes utilizam técnicas adaptadas à idade para abordar questões como dificuldades escolares, ansiedade, depressão e problemas de comportamento. O foco é criar um ambiente acolhedor e seguro para que os jovens possam se expressar e desenvolver habilidades sociais.</div>
-              <div class="carousel-item"><h2>Psicoterapia para Transtornos de Ansiedade</h2> <br>
-                A psicoterapia para ansiedade é essencial para ajudar os pacientes a entenderem suas preocupações e medos. O psicólogo trabalha com estratégias que permitem ao paciente enfrentar e gerenciar a ansiedade, promovendo uma vida mais equilibrada e saudável.</div>
-                <div class="carousel-item"><h2>Orientação Profissional e Vocacional</h2> <br>
-                  Este serviço auxilia indivíduos na escolha de carreira e desenvolvimento profissional. Através de avaliações e conversas, os psicólogos ajudam os clientes a identificarem suas habilidades, interesses e valores, promovendo decisões mais alinhadas com suas aspirações.</div>
-                  <div class="carousel-item"><h2>Terapia Cognitivo-Comportamental (TCC)</h2> <br>
-                    A TCC é uma abordagem focada em identificar e modificar padrões de pensamento negativos e comportamentos disfuncionais. Este método é eficaz no tratamento de ansiedade, depressão, fobias e outros transtornos psicológicos, ajudando os pacientes a desenvolverem habilidades para enfrentar desafios.</div>
-   
-
+    <section class="carrosel" id="servicos">
+      <div class="container swiper">
+        <h1 class="titulo-carrosel">Serviços</h1>
+        <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                    <a href="#servicos" class="card-link">
+                        <img src="imagens/carrosel-imgs/terapia-cognitivo.png" alt="Card Imagem" class="card-image">
+                        <p class="badge">Terapia Cognitivo-Comportamental (TCC)</p>
+                        <h2 class="card-title">A TCC é uma abordagem focada em identificar e modificar padrões de pensamento negativos e comportamentos disfuncionais. Este método é eficaz no tratamento de ansiedade, depressão, fobias e outros transtornos psicológicos, ajudando os pacientes a desenvolverem habilidades para enfrentar desafios.</h2>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#servicos" class="card-link">
+                        <img src="imagens/carrosel-imgs/terapia-casal.png" alt="Card Imagem" class="card-image">
+                        <p class="badge">Terapia de Casal
+                        </p>
+                        <h2 class="card-title">A terapia de casal ajuda parceiros a melhorar a comunicação, resolver conflitos e fortalecer a relação. Os psicólogos oferecem um espaço seguro para discutir questões emocionais e comportamentais, promovendo a empatia e a compreensão entre os cônjuges.</h2>
+                  
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#servicos" class="card-link">
+                        <img src="imagens/carrosel-imgs/terapia-conselho.png" alt="Card Imagem" class="card-image">
+                        <p class="badge">Aconselhamento Psicológico
+                        </p>
+                        <h2 class="card-title">Este serviço fornece apoio e orientação em momentos de crise, ajudando indivíduos a lidarem com dificuldades emocionais e situações desafiadoras. O aconselhamento é uma abordagem mais breve e pode ser útil para esclarecer dúvidas, melhorar a autoestima e enfrentar mudanças na vida.
+                        </h2>
+                     
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#servicos" class="card-link">
+                        <img src="imagens/carrosel-imgs/terapia-infantil.png" alt="Card Imagem" class="card-image">
+                        <p class="badge">Terapia Infantil e Adolescente
+                        </p>
+                        <h2 class="card-title">Os psicólogos que trabalham com crianças e adolescentes utilizam técnicas adaptadas à idade para abordar questões como dificuldades escolares, ansiedade, depressão e problemas de comportamento. O foco é criar um ambiente acolhedor e seguro para que os jovens possam se expressar e desenvolver habilidades sociais.
+                        </h2>
+                     
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#servicos" class="card-link">
+                        <img src="imagens/carrosel-imgs/terapia-ansiedade.png" alt="Card Imagem" class="card-image">
+                        <p class="badge">Transtornos de Ansiedade
+                        </p>
+                        <h2 class="card-title">  A psicoterapia para ansiedade é essencial para ajudar os pacientes a entenderem suas preocupações e medos. O psicólogo trabalha com estratégias que permitem ao paciente enfrentar e gerenciar a ansiedade, promovendo uma vida mais equilibrada e saudável.
+                        </h2>
+                    
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                  <a href="#" class="card-link">
+                      <img src="imagens/carrosel-imgs/terapia-profissional.png" alt="Card Imagem" class="card-image">
+                      <p class="badge">Orientação Profissional e Vocacional
+                      </p>
+                      <h2 class="card-title">Este serviço auxilia indivíduos na escolha de carreira e desenvolvimento profissional. Através de avaliações e conversas, os psicólogos ajudam os clientes a identificarem suas habilidades, interesses e valores, promovendo decisões mais alinhadas com suas aspirações.
+                      </h2>
+                  
+                  </a>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+        </div>
+        </div>
+    </section>
+     
     <section class="ajudar-container">
         <div class="background-titulo-ajuda">
           <h1>Como posso te ajudar?</h1>
@@ -150,6 +209,7 @@
 </footer>
 
   <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </body>
 </html>

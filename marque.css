@@ -76,13 +76,13 @@
 
 @media (max-width: 500px) {
   .container-marque h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .textos-marque h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .textos-marque p {
-    font-size: 1em;
+    font-size: 1.2rem;
   }
   .imagem-marque img {
     width: 260px;
