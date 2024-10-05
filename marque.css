@@ -53,6 +53,13 @@
   height: auto;
 }
 
+.botao-marque {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
 @media (max-width: 800px) {
   .conteudo-marque {
     flex-direction: column;
